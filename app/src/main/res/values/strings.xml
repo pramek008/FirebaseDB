@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TestBarang</string>
+    <string name="btTambah">Tambah Data</string>
+    <string name="btLihat">Lihat Data</string>
+    <string name="bOk">Submit Data</string>
+    <string name="eno">Kode Barang</string>
+    <string name="enama">Nama Barang</string>
+    <string name="judul1">Aktivitas</string>
+    <string name="judul2">Penambahan Data</string>
+    <string name="judul3">Data Barang</string>
+    <string name="txtKosong" />
+</resources>
