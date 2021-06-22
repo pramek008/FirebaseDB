@@ -5,8 +5,9 @@ import androidx.annotation.NonNull;
 import java.io.Serializable;
 
 public class Barang implements Serializable {
-    private String kode;
+    private String idfb;
     private String nama;
+    private String kode;
 
     public Barang(){
     }
@@ -21,14 +22,21 @@ public class Barang implements Serializable {
     public String getNama(){
         return nama;
     }
-
     public void setNama(String nama) {
         this.nama = nama;
     }
 
+    public String getId(){return idfb;}
+    public void setId(String id){this.idfb = id;}
+
     @Override
     public String toString() {
-        return " " + kode + '\n' + " " + nama;
+
+        return "Barang{" +
+                ", nama='" + nama + '\n'+
+                ", kode='" + kode + '\n' +
+                "id='" + idfb + '\n' +
+                '}';
     }
     public Barang(String kd, String nm){
         kode = kd;

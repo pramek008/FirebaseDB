@@ -36,7 +36,8 @@ public class TambahData extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (!(etKode.getText().toString().isEmpty()) && !(etNama.getText().toString().isEmpty())){
-                    submitBrg(new Barang(etKode.getText().toString(),etNama.getText().toString()));
+                    submitBrg(new Barang(etKode.getText().toString(),
+                            etNama.getText().toString()));
                 }else{
                     Toast.makeText(getApplicationContext(),"Data tidak boleh kosong",Toast.LENGTH_LONG).show();
                 }
